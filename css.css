@@ -1,0 +1,295 @@
+body{
+    background-image: url(img/Fondo.png);
+    background-size: cover;
+    width:1600px;
+    height: 1024px;
+} 
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #9B6813ff;
+    text-shadow: rgb(46, 29, 0) 0.02em 0.07em 0.08em;
+    height: 100px;
+    margin-top: 0%;
+    align-items: center;
+    padding-top: 20px;
+}
+    
+.carta{
+     position: absolute;
+    width: 235px;
+    height: 376px;
+    left: -25px;
+    top: 200px;
+    
+    }
+    
+.carta section{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backface-visibility: hidden;
+        transition: 1s;
+        padding: 10px;
+    }
+    
+.carta .pregunta{
+        position: absolute;
+        width: 235px;
+        height: 376px;
+        left: 41px;
+        top: 0px;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        background: #E3D181ff;
+        transform: perspective(500px) rotateY(0deg);
+        text-align: center;
+        border-color: rgb(82, 43, 41);
+        border-style:double;
+    
+    }
+    
+.pregunta p{
+        padding: 10px;
+        color: black;
+        font-size: large;
+    }
+    
+.carta .respuesta{
+        position: absolute;
+        width: 235px;
+        height: 376px;
+        left: 41px;
+        top: 0px;
+        background: #FEF3BBff;
+        border-style: double;
+        border-color: rgb(82, 43, 41);
+        transform: perspective(500px) rotateY(180deg);
+        text-align: center;
+        display: block;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+    
+    }
+    
+.carta:hover .pregunta{
+        transform: perspective(500px) rotateY(180deg);
+    }
+    
+.carta:hover .respuesta{
+        transform: perspective(500px) rotateY(360deg);
+    }
+    
+    
+.respuesta img{
+    
+    width: 200px;
+    height: 400px;
+    left: 5px;
+    
+    
+    object-fit: cover;
+    position: relative;
+    
+      }
+    
+.text{
+    
+    position: absolute;
+    width: 208px;
+    height: 192px;
+    left: 30px;
+    top: 80px;
+    
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+.text-opciones{
+
+    position: absolute;
+    width: 208px;
+    height: 192px;
+    top: 70px;
+    text-align: initial;
+    
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    
+    color: #000000;
+}
+
+    
+.c2{   
+    position: absolute;
+    width: 238px;
+    height: 376px;
+    left: 425px;
+    top: 0px;
+}
+    
+.c3{   
+    position: absolute;
+    width: 235px;
+     height: 376px;
+     left: 880px;
+    top: 0px;    
+    }
+
+.c4{   
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 1300px;
+      top: 0px;
+    }
+    
+.c5{
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 0px;
+    top: 470px;
+}
+    
+ .c6{
+    position: absolute;
+    width: 238px;
+    height: 376px;
+    left: 425px;
+    top: 470px;
+ }
+    
+.c7{
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 880px;
+    top: 470px;
+}
+      
+.c8{
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 1300px;
+    top: 470px;
+}
+
+      
+.c9{    
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 0px;
+    top: 940px; 
+}
+    
+          
+.c10{
+    position: absolute;
+    width: 238px;
+    height: 376px;
+    left: 425px;
+    top: 940px; 
+}
+    
+ .c11{ 
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 880px;
+    top: 940px; 
+    }
+      
+.c12{    
+    position: absolute;
+    width: 235px;
+     height: 376px;
+    left: 1300px;
+    top: 940px;   
+ }
+
+
+      
+.c13{     
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 0px;
+    top: 1420px;
+}
+    
+          
+.c14{
+    position: absolute;
+    width: 238px;
+    height: 376px;
+    left: 425px;
+    top: 1420px;
+        
+}
+        
+.c15{      
+    position: absolute;
+    width: 235px;
+    height: 376px;
+     left: 880px;
+     top: 1420px;
+}
+          
+.c16{       
+    position: absolute;
+      width: 235px;
+      height: 376px;
+      left: 1300px;
+      top: 1420px;
+}
+
+.c17{       
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 0px;
+    top: 1900px;
+    }
+          
+.c18{    
+     position: absolute;
+     width: 235px;
+     height: 376px;
+     left: 425px;
+     top: 1900px;
+}
+
+.c19{    
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 880px;
+    top: 1900px;
+}
+
+.c20{    
+    position: absolute;
+    width: 235px;
+    height: 376px;
+    left: 1300px;
+    top: 1900px;
+}
+
+
+
